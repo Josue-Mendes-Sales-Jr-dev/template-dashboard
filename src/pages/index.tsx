@@ -20,7 +20,7 @@ export default function Home() {
           <div className='flex flex-col md:flex-row gap-3 w-[100%] h-[75vh] mb-15 md:mb-8 items-center justify-center'>
             <div className='w-[90%] md:w-[60%] rounded-lg h-[50rem] md:h-[100%] bg-red-400'>
             </div>
-            <div  className='w-[90%] md:w-[38%] rounded-lg h-[50rem] mb-10 md:0  md:h-[100%] bg-blue-400'>
+            <div  className='w-[90%] md:w-[38.2%] rounded-lg h-[50rem] mb-10 md:0  md:h-[100%] bg-blue-400'>
             </div>
           </div>
         </div>
