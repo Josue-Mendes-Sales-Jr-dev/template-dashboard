@@ -13,7 +13,7 @@ export const Layout=(props:ILayoutProps)=>{
         <>
         <div className=" w-screen h-[100vh] flex gap-2">
             <Navbar/>
-            <div className="flex w-[95%] h-[100vh] bg-gray-400 flex-col border-box overflow-hidden">
+            <div className="flex w-[95%] h-[100vh] flex-col border-box overflow-hidden">
                 <Header/>
                 <div>
                     {
