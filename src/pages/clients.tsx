@@ -2,6 +2,8 @@ import Image from 'next/image'
 import { Layout } from '@/components/layout'
 import { IoMdPerson} from 'react-icons/io'
 import { Data } from '@/components/data'
+import { BsThreeDotsVertical } from 'react-icons/bs'
+
 
 
 export default function Clients() {
@@ -24,13 +26,13 @@ export default function Clients() {
                 Method
             </li>
         </ul>
-        <div className='flex flex-col gap-3 w-[95%] items-center h-[80vh] sm:h-[60vh] lg:h-[80vh] pb-2 rounded-bl-lg rounded-br-lg bg-gray-100 overflow-hidden'>
+        <div className='flex flex-col gap-3 w-[95%] items-center h-[75vh] sm:h-[60vh] lg:h-[80vh] pb-2 rounded-bl-lg rounded-br-lg bg-gray-100 overflow-hidden'>
             <ul className='flex flex-col gap-3 w-[99%] items-center h-[100%] bg-gray-100 overflow-auto  ' >
               {
                 Data.map((items)=>(
                     <>
                     <li  className=' flex items-center justify-between lg:justify-center  w-[98%] px-3 bg-gray-300 h-[55px] rounded'>
-                        <li key={items.id} className='lg:w-[25%] w-[20%] py-1' >
+                        <li key={items.id} className='lg:w-[25%] w-[20%] py-2' >
                            <div className='flex w-[100%] gap-3 lg:gap-5 items-center'>
                             <span className='flex items-center justify-center rounded bg-purple-400 w-[35px] h-[35px]'><IoMdPerson className='sm:w-[30px] w-[25px]'/></span>
                             <p className=' flex gap-1 md:text-[1rem] sm:text-[.8rem] text-[.6rem]'>
@@ -43,10 +45,11 @@ export default function Clients() {
                          <p>{items.nome.first}{items.nome.last}@gmail.com</p>
                                      </li >
                                      <li className='w-[25%] hidden lg:inline'>
-                                    {items.status}
+                                    {items.date}
                                      </li>
-                                     <li className='w-[25%] hidden lg:inline'>
+                                     <li className='w-[25%] hidden lg:flex items-center justify-between'>
                                      {items.method}
+                                     < BsThreeDotsVertical />
                                      </li>
                     </li>
                  </>

@@ -4,105 +4,105 @@ export const Data=[
       nome:{ first:'Junior', last:'Mendes'},
       total:2345.00,
       status: 'OnHold',
-      method: 'elo',
-      date: '4 day ago'
+      method: 'Elo',
+      date: '4 Day ago'
     },
     { id:2, 
       nome:{ first:'Laryssa', last:'Duarte'},
       total:4345.00,
       status: 'Completed',
-      method: 'hipercard',
-      date: '1 min ago'
+      method: 'Hipercard',
+      date: '1 Min ago'
     },
     { id:3, 
       nome:{ first:'João', last:'Bastos'},
       total:245.00,
       status: 'OnHold',
-      method: 'elo',
+      method: 'Elo',
       date: '5 day ago'
     },
     { id:4, 
       nome:{ first:'Ciro', last:'Damasco'},
       total:2345.00,
       status: 'Completed',
-      method: 'masterCard',
-      date: '1 hr ago'
+      method: 'MasterCard',
+      date: '1 Hour ago'
     },
     { id:5, 
       nome:{ first:'Lucas', last:'Vieira'},
       total:45.00,
       status: 'Completed',
-      method: 'visa',
-      date: '1 min ago'
+      method: 'Visa',
+      date: '1 Min ago'
     },
     { id:6, 
       nome:{ first:'Leandro', last:'Gaspar'},
       total:234.00,
       status: 'Completed',
-      method: 'visa',
-      date: '5 min ago'
+      method: 'Visa',
+      date: '5 Min ago'
     },
     { id:7, 
       nome:{ first:'Arthur', last:'Barto'},
       total:594.00,
       status: 'Completed',
-      method: 'hiperCard',
-      date: '3 day ago'
+      method: 'HiperCard',
+      date: '3 Day ago'
     },
     { id:8, 
       nome:{ first:'Josué', last:'Mendes'},
       total:2345.00,
       status: 'Refunded',
-      method: 'elo',
-      date: '2 day ago'
+      method: 'Elo',
+      date: '2 Day ago'
     },
     { id:9, 
       nome:{ first:'Lays', last:'Lins'},
       total:3450.00,
       status: 'Completed',
-      method: 'visa',
-      date: '55 min ago'
+      method: 'Visa',
+      date: '55 Min ago'
     },
     { id:10, 
       nome:{ first:'Matheus', last:'Mendes'},
       total:2345.00,
       status: 'OnHold',
       method: 'MasterCard',
-      date: '15 min ago'
+      date: '15 Min ago'
     },
     { id:11, 
       nome:{ first:'Agostinho', last:'Gastigo'},
-      total:12000.00,
+      total:1200.00,
       status: 'Completed',
-      method: 'visa',
-      date: '1 day ago'
+      method: 'Visa',
+      date: '1 Day ago'
     },
     { id:12, 
       nome:{ first:'Arthur', last:' Mendes'},
       total:2345.00,
       status: 'Completed',
       method: 'MasterCard',
-      date: '45 min ago'
+      date: '45 Min ago'
     },
     { id:12, 
       nome:{ first:'Bruno', last:' Sales'},
       total:1890.00,
       status: 'Completed',
-      method: 'visa',
-      date: '15 min ago'
+      method: 'Visa',
+      date: '15 Min ago'
     },
     { id:13, 
       nome:{ first:'Thiago', last:'Alves'},
       total:1345.00,
       status: 'Completed',
       method: 'MasterCard',
-      date: '15 day ago'
+      date: '15 Day ago'
     },
     { id:14, 
       nome:{ first:'Janete', last:'Santiago'},
       total:1805.00,
       status: 'Completed',
-      method: 'visa',
-      date: '2 hs ago'
+      method: 'Visa',
+      date: '2 Hours ago'
     },
 ]

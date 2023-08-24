@@ -11,9 +11,9 @@ interface ILayoutProps{
 export const Layout=(props:ILayoutProps)=>{
     return(
         <>
-        <div className=" w-screen h-[100vh] flex gap-2">
-            <Navbar/>
-            <div className="flex w-[95%] h-[100vh] flex-col border-box overflow-hidden">
+        <div className=" w-screen h-[100vh] flex sm:flex-row flex-col gap-2">
+            <Navbar className="hidden sm:flex"/>
+            <div className="flex sm:w-[95%] h-[92vh] sm:h-[98vh] flex-col border-box overflow-hidden">
                 <Header/>
                 <div>
                     {
@@ -21,6 +21,7 @@ export const Layout=(props:ILayoutProps)=>{
                     }
                 </div>
             </div>
+            <Navbar className="sm:hidden flex"/>
         </div>
         </>
     )

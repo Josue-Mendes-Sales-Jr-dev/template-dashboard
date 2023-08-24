@@ -6,7 +6,7 @@ import { Data } from '../data'
 export const Orders=()=>{
     return(
         <>
-        <div  className='w-[90%] flex flex-col items-center pt-2  md:w-[32%] rounded-lg h-[250rem] mb-3  md:mb-[0px]  md:h-[100%] bg-gray-100 border-box overflow-hidden '>
+        <div  className='w-[90%] flex flex-col items-center pt-2  md:w-[32%] rounded-lg h-[250rem] mb-3  md:mb-[0px]  md:h-[90%] bg-gray-100 border-box overflow-hidden '>
         <div  className='w-[98%] flex flex-col items-center   rounded-lg   md:mb-[0px]  h-[98%] bg-gray-100 overflow-auto '>
              {
                 Data.map(items=>(
