@@ -9,9 +9,8 @@ import { BsThreeDotsVertical } from 'react-icons/bs'
 export default function Clients() {
   return (
   <>
-   <div className='W-[100vw] h-[100vh] flex items-center justify-center '>
      <Layout>
-      <div className='W-[100%] h-[100%] mt-2 flex flex-col items-center justify-center'>
+      <div className='w-[100%] h-[100%] mt-2 flex flex-col pb-2 items-center justify-center'>
         <ul className=' flex  items-center justify-between lg:justify-center w-[95%]  py-2 px-[1rem] bg-gray-100 h-[60px] rounded-tl-lg rounded-tr-lg'>
             <li className='lg:w-[25%] w-[20%]' >
                 Nome
@@ -27,7 +26,7 @@ export default function Clients() {
             </li>
         </ul>
         <div className='flex flex-col gap-3 w-[95%] items-center h-[75vh] sm:h-[60vh] lg:h-[80vh] pb-2 rounded-bl-lg rounded-br-lg bg-gray-100 overflow-hidden'>
-            <ul className='flex flex-col gap-3 w-[99%] items-center h-[100%] bg-gray-100 overflow-auto  ' >
+            <ul className='flex flex-col gap-3 w-[99%] items-center h-[100%] bg-gray-100 overflow-auto  scrollbar-thin scrollbar-thumb-slate-300' >
               {
                 Data.map((items)=>(
                     <>
@@ -59,7 +58,7 @@ export default function Clients() {
         </div>
       </div>
      </Layout>
-    </div>  
+
   </>
   )
 }
