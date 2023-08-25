@@ -11,7 +11,7 @@ export default function Home() {
      <Layout>
       <div className='flex flex-col w-screen gap-10 h-[100%]'>
         <div className='w-screen lg:h-[45%] gap-5 flex flex-col lg:flex-row items-center justify-center'>
-          <div className='w-[100%] sm:w-[80%] lg:w-[45%] h-[100%] flex flex-wrap gap-4 items-center justify-center'>
+          <div className='w-[80%] lg:w-[45%] h-[100%] flex flex-wrap gap-4 items-center justify-center'>
              <Card title='Dinheiro' subtitle='valor' value='$34567'/>
              <Card title='Dinheiro' subtitle='valor' value='$34567'/>
              <Card title='Dinheiro' subtitle='valor' value='$34567'/>
