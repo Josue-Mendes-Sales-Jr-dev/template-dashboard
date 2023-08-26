@@ -9,7 +9,7 @@ interface ICardProps{
 export const Card=(props:ICardProps)=>{
     return(
         <>
-        <div className={`${props.className} bg-gray-900 text-white w-[47%] sm:w-[48%] px-3 h-[60px] lg:h-[110px] bg-white flex gap-5 rounded-lg items-center justify-between`}>
+        <div className={`${props.className} bg-gray-900 text-white w-[47%] sm:w-[48%] px-3 h-[60px] lg:h-[110px] flex gap-5 rounded-lg items-center justify-between`}>
           <p className="flex flex-col text-[1rem] md:text-[1.3rem]">
             <strong>{props.title}</strong>
             <span className="text-[.8rem]">
