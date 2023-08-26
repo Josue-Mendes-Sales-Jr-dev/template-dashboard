@@ -4,14 +4,13 @@ import { Orders } from '@/components/orders/index,'
 import { BarChart } from '@/components/graph'
 
 
-export default function Home() {
+export default function Graph() {
   return (
   <>
-   <div className='W-[100vw] h-[100vh] flex items-center justify-center '>
      <Layout>
    
      </Layout>
-    </div>  
+      
   </>
   )
 }

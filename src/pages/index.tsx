@@ -29,7 +29,7 @@ export default function Home() {
           <div className='bg-gray-900 text-white rounded-lg w-[80%] lg:w-[40%] h-[100%]'>
              <LineGraph/>
           </div>
-          <div className='bg-gray-900 rounded-lg flex items-center justify-center w-[80%] lg:w-[20%] h-[100%] mb-10'>
+          <div className='bg-gray-900 rounded-lg flex items-center justify-center w-[80%] lg:w-[20%] h-[100%] mb-10 sm:mb-0'>
             <RadarGraph/>
           </div>
         </div>
