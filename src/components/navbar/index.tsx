@@ -23,7 +23,7 @@ export const Navbar=(props:INavbarProps)=>{
                 </ul>
               </nav>
          </div>
-         <div className={`${props.className} sm:hidden bg-gray-900 w-[100vw] h-[8vh] flex items-center justify-center`}> 
+         <div className={`${props.className} sm:hidden bg-gray-900 w-[100vw] flex items-center justify-center`}> 
               <nav >
                 <ul className="w-[100%] h-[100%] flex  items-center gap-10">
                    <li className="p-2 bg-gray-200 rounded-lg hover:bg-purple-300 "><Link  href="/"><FcLibrary/></Link></li>
