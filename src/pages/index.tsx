@@ -9,7 +9,6 @@ import { LineGraph } from '@/components/graph/line'
 export default function Home() {
   return (
   <>
-   <div className='w-[100vw] h-[100vh] flex items-center justify-center '>
      <Layout>
       <div className='flex flex-col w-screen gap-10 h-[100%]'>
         <div className='w-screen lg:h-[45%] gap-5 flex flex-col lg:flex-row items-center justify-center'>
@@ -36,7 +35,6 @@ export default function Home() {
         </div>
       </div>
      </Layout>
-    </div>  
   </>
   )
 }
