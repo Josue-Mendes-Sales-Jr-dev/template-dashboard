@@ -14,7 +14,7 @@ export const Layout=(props:ILayoutProps)=>{
         <div className=" w-screen h-[100vh] flex sm:flex-row flex-col gap-2 ">
             <Navbar className="hidden sm:flex"/>
             <div className="flex sm:w-[95%] h-[90vh] lg:h-[96vh] gap-5 flex-col border-box ">
-                <Header/>
+                <Header className='w-[100%] h-[10%]'/>
                 <div className="flex items-center justify-center scrollbar-thin w-[100%] h-[90%] overflow-auto">
                     {
                         props.children

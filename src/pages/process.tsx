@@ -11,7 +11,7 @@ export default function Process() {
 
      <Layout>
       <div className='w-[100%] h-[100%] flex flex-col items-center justify-center'>
-        <ul className=' flex  items-center justify-between lg:justify-center w-[95%]  py-2 px-[1rem] bg-gray-100 h-[60px] rounded-tl-lg rounded-tr-lg'>
+        <ul className=' flex  items-center justify-between lg:justify-center w-[95%]  py-2 px-[1rem] bg-gray-800 h-[60px] text-white rounded-tl-lg rounded-tr-lg'>
             <li className='lg:w-[25%] w-[20%]' >
                 Nome
             </li>
@@ -25,15 +25,15 @@ export default function Process() {
                 Method
             </li>
         </ul>
-        <div className='flex flex-col gap-3 w-[95%] items-center h-[90vh]  pb-2 rounded-bl-lg rounded-br-lg bg-gray-100 overflow-hidden'>
-            <ul className='flex flex-col gap-3 w-[99%] items-center h-[100%] bg-gray-100 overflow-auto  scrollbar-thin scrollbar-thumb-slate-300' >
+        <div className='flex flex-col gap-3 w-[95%] items-center h-[90vh]  pb-2 rounded-bl-lg rounded-br-lg bg-gray-800 overflow-hidden'>
+            <ul className='flex flex-col gap-3 w-[99%] items-center h-[100%] bg-gray-800 overflow-auto  scrollbar-thin scrollbar-thumb-slate-300' >
               {
                 Data.map((items)=>(
                     <>
                     <li  className=' flex items-center justify-between lg:justify-center  w-[98%] px-3 bg-gray-300 h-[55px] rounded'>
                         <li key={items.id} className='lg:w-[25%] w-[20%] py-2' >
                            <div className='flex w-[100%] gap-3 lg:gap-5 items-center'>
-                            <span className='flex items-center justify-center rounded bg-purple-400 w-[35px] h-[38px]'><IoMdPerson className='sm:w-[30px] w-[25px]'/></span>
+                            <span className='flex items-center justify-center rounded bg-red-700  w-[35px] h-[38px]'><IoMdPerson className='sm:w-[30px] w-[25px]'/></span>
                             <p className=' flex flex-col md:text-[1rem] sm:text-[.8rem] text-[.6rem]'>
                                 <strong>$ {items.total},00</strong>
                                 <span className='text-[.6rem]'>{items.nome.first} </span>

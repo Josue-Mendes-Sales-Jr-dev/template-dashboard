@@ -34,8 +34,9 @@ export const BarChart = ()=>{
                   {
                   label: 'sales',
                   data: Data.map(item=>(item.total)),
-                  borderColor: 'rgb(128, 0, 128)',
-                  backgroundColor: 'rgb(128,16,325,0.4)',
+                  borderColor: 'rgb(255, 255, 255)',
+                  backgroundColor: 'rgb(155, 20, 13)',
+                  
                 },
             ]
         })
@@ -58,8 +59,8 @@ export const BarChart = ()=>{
 
     return(
         <>
-        <div className='w-[100%] p-1 bg-white h-[100%] rounded-lg'>
-            <Bar data={ chartData} options={chartOptions}/>
+        <div className='w-[100%] p-1 h-[100%] rounded-lg '>
+            <Bar className='text-white' data={ chartData} options={chartOptions}/>
         </div>
         </>
 

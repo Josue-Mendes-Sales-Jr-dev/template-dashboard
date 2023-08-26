@@ -1,12 +1,16 @@
 import "tailwindcss/tailwind.css"
+import Link from "next/link"
 
-export const Header=()=>{
+interface IHeaderProps{
+  className: string
+}
+export const Header=(props:IHeaderProps)=>{
 
     return(
         <>
-        <div className="w-[100%] px-2 p-2 text-white h-[40px] flex items-center justify-between">
+        <div className={`${props.className} px-4  text-white flex items-center justify-between`}>
           <p>
-            Dashboard
+            <Link href='/'>Dashboard</Link>
           </p>
           <p>
             Welcome Junior.
