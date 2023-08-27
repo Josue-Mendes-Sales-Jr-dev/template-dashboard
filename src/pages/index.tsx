@@ -23,8 +23,7 @@ export default function Home() {
           </div>
         </div>
         <div className='w-screen lg:h-[45%]  flex-col lg:flex-row  gap-5 flex items-center justify-center' >
-          <div className='w-[80%] lg:w-[30%] h-[100%]'>
-           <NewCalendar/>
+          <div className='w-[80%] lg:w-[30%] h-[100%] bg-gray-900 rounded-lg'>
           </div>
           <div className='bg-gray-900 text-white rounded-lg w-[80%] lg:w-[40%] h-[100%]'>
              <LineGraph/>

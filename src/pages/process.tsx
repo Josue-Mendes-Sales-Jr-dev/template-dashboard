@@ -11,7 +11,7 @@ export default function Process() {
 
      <Layout>
       <div className='w-[100%] h-[100%] flex flex-col items-center justify-center'>
-        <ul className=' flex  items-center justify-between lg:justify-center w-[95%]  py-2 px-[1rem] bg-gray-800 h-[60px] text-white rounded-tl-lg rounded-tr-lg'>
+        <ul className=' flex  items-center justify-between lg:justify-center w-[95%]  py-2 px-[1rem] bg-gray-900 h-[60px] text-white rounded-tl-lg rounded-tr-lg'>
             <li className='lg:w-[25%] w-[20%]' >
                 Nome
             </li>
@@ -25,8 +25,8 @@ export default function Process() {
                 Method
             </li>
         </ul>
-        <div className='flex flex-col gap-3 w-[95%] items-center h-[90vh]  pb-2 rounded-bl-lg rounded-br-lg bg-gray-800 overflow-hidden'>
-            <ul className='flex flex-col gap-3 w-[99%] items-center h-[100%] bg-gray-800 overflow-auto  scrollbar-thin scrollbar-thumb-slate-300' >
+        <div className='flex flex-col gap-3 w-[95%] items-center h-[90vh]  pb-2 rounded-bl-lg rounded-br-lg bg-gray-900 overflow-hidden'>
+            <ul className='flex flex-col gap-3 w-[99%] items-center h-[100%] bg-gray-900 overflow-auto  scrollbar-thin scrollbar-thumb-slate-300' >
               {
                 Data.map((items)=>(
                     <>

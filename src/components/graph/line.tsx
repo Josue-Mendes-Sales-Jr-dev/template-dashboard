@@ -1,4 +1,5 @@
 import 'tailwindcss/tailwind.css'
+import { Data } from '../data';
 import React from 'react';
 import {
   Chart as ChartJS,
@@ -24,14 +25,14 @@ ChartJS.register(
 );
 
 export const options = {
-  responsive: true,
+  reponsive:true,
   plugins: {
     legend: {
       position: 'top' as const,
     },
     title: {
       display: true,
-      text: 'Chart.js Line Chart',
+      text: 'valores',
     },
   },
 };
@@ -43,19 +44,19 @@ export const data = {
   datasets: [
     {
       label: 'Dataset 1',
-      data: labels.map(() => faker.datatype.number({ min: -1000, max: 1000 })),
+      data: Data.map((items) => faker.datatype.number({ min: -1000, max: 1000 })),
       borderColor: 'rgb(255, 99, 132)',
       backgroundColor: 'rgb(155, 20, 13)',
     },
     {
       label: 'Dataset 2',
       data: labels.map(() => faker.datatype.number({ min: -1000, max: 1000 })),
-      borderColor: 'rgb(53, 162, 235)',
-      backgroundColor: 'rgba(53, 162, 235, 0.5)',
+      borderColor: 'rgb(237, 240, 243)',
+      backgroundColor: 'rgba(96, 103, 107, 0.5)',
     },
   ],
 };
 
 export function LineGraph() {
-  return <Line options={options} data={data} />;
+  return <Line className='w=[100%] h-[100%]' options={options} data={data} />;
 }
